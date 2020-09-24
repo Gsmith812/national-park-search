@@ -14,7 +14,7 @@
     <main>
         <form id="js-form">
             <label for="state-input">Please select a state(Can be multiple selections{use CTRL or CMD}):</label>
-            <select class="js-state-input" name="state-input" multiple="" required>
+            <select class="js-state-input" id="state-input" multiple="" required>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
@@ -68,7 +68,7 @@
                 <option value="WY">Wyoming</option>
             </select>
             <label for="max-results">Number of Results:</label>
-            <input type="number" class="js-max-results" name="max-results" value="10" required>
+            <input type="number" class="js-max-results" id="max-results" value="10" required>
             <button type="submit" class="js-submit-input">Find Parks</button>
         </form>
         <p id="js-error-message" class="error-message"></p>
